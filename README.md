@@ -1,5 +1,5 @@
 # Vue Jobs
-![image](https://github.com/user-attachments/assets/ee320d68-7756-437b-95e4-0239a0e6c117)
+![image](https://github.com/user-attachments/assets/cb6bac82-1658-46c8-ad31-d6e4d365f254)
 ![image](https://github.com/user-attachments/assets/77fdf1d3-891a-4cbf-aadf-5c23bd43ec03)
 ![image](https://github.com/user-attachments/assets/51cc9ea7-0b92-463a-b804-e3c67ed22413)
 
