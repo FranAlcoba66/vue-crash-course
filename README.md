@@ -1,29 +1,92 @@
-# vue-crash-course
+# Vue Jobs
 
-This template should help get you started developing with Vue 3 in Vite.
+Este proyecto es una aplicación web desarrollada con **Vue 3** y **Vite** que permite a los usuarios explorar, agregar, editar y eliminar ofertas de trabajo.
 
-## Recommended IDE Setup
+## Tecnologías utilizadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Vue 3**: Framework de JavaScript para construir interfaces de usuario.
+- **Vite**: Herramienta de desarrollo rápida para proyectos de frontend.
+- **Tailwind CSS**: Framework de CSS para estilos rápidos y personalizables.
+- **Vue Router**: Librería para manejar rutas en aplicaciones Vue.
+- **Axios**: Cliente HTTP para realizar solicitudes a la API.
+- **JSON Server**: Servidor simulado para manejar datos de trabajos.
+- **Vue Toastification**: Librería para mostrar notificaciones.
+- **PrimeIcons**: Iconos utilizados en la interfaz.
+- **Vue Spinner**: Componente para mostrar indicadores de carga.
 
-## Customize configuration
+## Requisitos previos
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Node.js** (versión 16 o superior)
+- **npm** (incluido con Node.js)
 
-## Project Setup
+## Configuración del proyecto
 
-```sh
-npm install
-```
+1. Clona este repositorio:
 
-### Compile and Hot-Reload for Development
+   ```sh
+   git clone <URL_DEL_REPOSITORIO>
+   cd vue-crash-course
+   ```
+
+2. Instala las dependencias:
+
+   ```sh
+   npm install
+   ```
+
+## Comandos disponibles
+
+### Ejecutar el proyecto en modo desarrollo
+
+Inicia el servidor de desarrollo con Vite:
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+Esto abrirá la aplicación en `http://localhost:3000`.
+
+### Iniciar el servidor de datos (JSON Server)
+
+Ejecuta el servidor simulado para manejar los datos de trabajos:
+
+```sh
+npm run server
+```
+
+Esto iniciará el servidor en `http://localhost:8000`.
+
+### Compilar para producción
+
+Genera una versión optimizada del proyecto:
 
 ```sh
 npm run build
 ```
+
+### Previsualizar la compilación de producción
+
+Sirve la compilación de producción localmente:
+
+```sh
+npm run preview
+```
+
+## Estructura del proyecto
+
+```plaintext
+src/
+├── assets/          # Archivos estáticos (CSS, imágenes)
+├── components/      # Componentes reutilizables de Vue
+├── router/          # Configuración de rutas
+├── views/           # Vistas principales de la aplicación
+├── jobs.json        # Datos de trabajos simulados
+├── main.js          # Punto de entrada principal
+```
+
+## Notas adicionales
+
+- Asegúrate de que tanto el servidor de desarrollo como el servidor de datos estén corriendo simultáneamente para que la aplicación funcione correctamente.
+- Puedes personalizar la configuración de Tailwind CSS en el archivo `tailwind.config.js`.
+
+¡Disfruta desarrollando con Vue Jobs!
