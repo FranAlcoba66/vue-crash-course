@@ -1,4 +1,7 @@
 # Vue Jobs
+![image](https://github.com/user-attachments/assets/ee320d68-7756-437b-95e4-0239a0e6c117)
+![image](https://github.com/user-attachments/assets/77fdf1d3-891a-4cbf-aadf-5c23bd43ec03)
+![image](https://github.com/user-attachments/assets/51cc9ea7-0b92-463a-b804-e3c67ed22413)
 
 Este proyecto es una aplicación web desarrollada con **Vue 3** y **Vite** que permite a los usuarios explorar, agregar, editar y eliminar ofertas de trabajo.
 
